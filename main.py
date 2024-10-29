@@ -49,6 +49,7 @@ player_move = pygame.mixer.Sound(resource_path(join("sounds", "tone.wav")))
 player_move.set_volume(0.14)
 player_death = pygame.mixer.Sound(resource_path(join("sounds", "synth.wav")))
 
+
 # Game clock
 clock = pygame.time.Clock()
 
